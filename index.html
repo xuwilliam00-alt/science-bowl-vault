@@ -1888,7 +1888,8 @@ ANSWER: PANGAEA`;
 
     function parseScienceBowlText(rawText, source, round) {
       const cleaned = rawText
-        .replace(//g, '')
+        .replace(/
+/g, '')
         .replace(/^\s*Page\s+\d+(\s+of\s+\d+)?\s*$/gim, '')
         .replace(/^\s*(High School|Middle School)\s+Round\s+\d+\s*$/gim, '')
         .replace(/^\s*~\s*$/gm, '');
