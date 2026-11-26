@@ -5,4 +5,4 @@ compatibility_date = "2026-11-25"
 [[d1_databases]]
 binding = "DB"
 database_name = "scibowl-vault"
-database_id = "PASTE_D1_DATABASE_ID_HERE"
+database_id = "96dfa784-e0e6-4ff2-b2bc-e6a2461658f8"
